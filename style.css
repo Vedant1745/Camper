@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+
+body{
+    background-color: #000b16;
+    overflow-x: hidden;
+}
+
+.hero-section {
+    color:white;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100vh;
+    text-align: center; 
+    background-image: url('./images/heroimg2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+
+.logo {
+    position: absolute; 
+    top: 30px; 
+    left: 30px; 
+    font-size: 24px; 
+    font-weight: bold; 
+    letter-spacing: 0.4em;
+}
+
+.navbar {
+    position: absolute; 
+    top: 38px; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    font-weight: 700;
+}
+
+.navbar ul {
+    list-style: none; 
+    display: flex; 
+    gap: 60px;
+}
+
+.navbar li {
+    margin: 0 15px; 
+    cursor: pointer;
+}
+
+.know-more-btn {
+    margin-top: 20px; 
+    padding: 10px 30px;
+    cursor: pointer; 
+    color: black;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(240, 240, 171);
+}
+
+
+/* About Section */
+
+
+.about-section{
+    margin-top: 6rem;
+    margin-bottom: 10rem;
+}
+
+.about-section-line1{
+    display: flex;
+}
+.about-section-l1{
+    width: 40%;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    line-height: 1.5; 
+}
+
+.about-section-l1 h4{
+    margin-bottom: 1em;
+}
+.about-section-l1 p{
+    margin-top: 1em;
+}
+
+.about-section-r1{
+    width: 50%;
+    position: relative;
+    left: 14%;
+   object-fit: contain;
+}
+.about-section-r1 img {
+    width: 100%; 
+    height: 45vh; 
+    border-radius: 20vi 0 0 20vi;
+    box-shadow: -14px 10px 35px black;
+}
+
+
+
+
+
+.about-section-line2{
+    display: flex;
+}
+.about-section-l2{
+    width: 40%;
+    margin-top: 10rem;
+    margin-left: 5rem;
+    line-height: 1.5;
+}
+
+.about-section-l1 p{
+    font-weight: 500;
+}
+
+.about-section-l2 h4{
+    margin-bottom: 1em;
+}
+.about-section-l2 p{
+    margin-top: 1em;
+    font-weight: 500;
+}
+
+.about-section-r2{
+    width: 50%;
+    position: relative;
+    right: 9%;
+   object-fit: contain;
+}
+.about-section-r2 img {
+    margin-top: 7rem;
+    width: 100%; 
+    height: 45vh; 
+    border-radius: 0 20vi 20vi 0;
+    box-shadow: -14px 10px 35px black;
+}
+
+
+.about-section-line3{
+    display: flex;
+}
+.about-section-l3{
+    width: 40%;
+    margin-top: 10rem;
+    margin-left: 5rem;
+    line-height: 1.5; 
+}
+
+.about-section-l3 h4{
+    margin-bottom: 1em;
+}
+.about-section-l3 p{
+    margin-top: 1em;
+    font-weight: 500;
+}
+
+.about-section-r3{
+    width: 50%;
+    position: relative;
+   left: 14%;
+   object-fit: contain;
+}
+.about-section-r3 img {
+    margin-top: 7rem;
+    width: 100%; 
+    height: 45vh;
+    border-radius: 20vi 0 0 20vi;
+    box-shadow: -14px 10px 35px black;
+}
+
+/* Explore Section */
+
+.explore-section{
+    display: flex;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.ex-left{
+    width: 50%;
+    margin-left: 10rem;
+}
+
+.exlpore-btn{
+    margin-top: 20px; 
+    padding: 10px 80px; 
+    cursor: pointer;
+    color: black;
+    font-size: large;
+    font-weight: 600;
+    border: none;
+    box-shadow: 2px 2px 3px black;
+    background-color: rgb(240, 240, 171);
+}
+
+.ex-right{
+    width: 50%;
+    margin-right: 3rem;
+    font-weight: 600;
+}
+
+
+/* Image Section */
+
+.images-section{
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.images-1{
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px black;
+}
+
+.images-1 img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.images-1 {
+    transition: transform 0.3s ease, z-index 0s linear 0.3s;
+}
+
+.images-1:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+
+/* Why Section */
+
+.why-section{
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+    text-align: center;
+    word-spacing:0.3em;
+}
+.why-section p{
+    margin-top: 2rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+
+
+.stats-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.stats-info h2{
+    margin-top: 1rem;
+}
+.stats-info h3{
+    margin-top: 1rem;
+}
+.stats-info p{
+    margin-top: 3rem;
+    font-weight: 500;
+}
+.stats-info img {
+    filter: brightness(0) invert(1);
+}
+
+/* See Tours */
+.see-tours{
+    margin-top: 8rem;
+    margin-bottom: 12rem;
+    text-align: center;
+    word-spacing: 0.4em;
+    width: 100%;
+    height: 80vh;
+    background-image: url(./images/camp.jpg);
+    background-size: cover; 
+    background-position: 30% 60%;; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.see-tours p{
+    margin-top: 2em;
+    line-height: 1.7em;
+    margin-bottom: 3em;
+}
+.see-more-btn{
+    /* margin-top: 1em; */
+    padding: 10px 40px; 
+    cursor: pointer; 
+    font-size: large;
+    border: none;
+    font-weight: 600;
+    width: 220px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+    background-color: rgb(240, 240, 171);
+}
+
+
+/* Travel Plan */
+
+.travel-plan{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+}
+
+.travel-plan h2{
+    letter-spacing: 0.3em;
+}
+.travel-plan img {
+    width: 70%; 
+    height: auto; 
+    margin: 0 auto;
+    margin-bottom: 8rem;
+}
+
+/* Footer Section */
+
+.footer-section{
+    background-color: #00070e;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 9rem;
+}
+
+.informed h4{
+    margin-bottom: 1rem;
+}
+.informed input[type="email"] {
+    width: 50%; 
+    padding: 7px; 
+    margin-right: 10px; 
+    font-size: 1em; 
+    color: black;
+}
+.subscirbe {
+    padding: 10px 20px; 
+    background-color: #061d35; 
+    color: white; 
+    border: none; 
+    
+    cursor: pointer; 
+    font-size: 1rem; 
+    transition: background-color 0.3s; 
+}
+.subscirbe:hover {
+    background-color: #031e3a; 
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+.footer-nav li{
+    margin-bottom: .7em;
+}
+
+.footer-nav a {
+    text-decoration: none; 
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.footer-nav,
+.contact {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 1rem; 
+}
+
+.contact {
+    margin-left: 2rem; 
+}
+.contact h4{
+    position: relative;
+    top: -.33em;
+}
+
+.camper-name{
+    letter-spacing: 1em;
+}
