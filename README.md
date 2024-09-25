@@ -16,4 +16,4 @@ Getting Started
 3. Choose Your Adventure: Select your destination, transportation, accommodation, and any additional activities or vehicles.
 4. Book and Enjoy: Complete your booking process and get ready for your adventure!
 
-You can visit this website at : https://vedant1745.github.io/Camper/
+You can visit this website at : https://vedant1745.github.io/Camper-Travel-Website/
